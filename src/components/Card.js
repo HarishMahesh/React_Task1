@@ -12,7 +12,7 @@ function Card(props) {
           </h6>
           <hr></hr>
           <div className="list-items">
-            {props.user == "Single User" ? (
+            {props.user === "Single User" ? (
               <p>
                 <i class="fas fa-check"></i> <span>{props.user}</span>
               </p>
